@@ -98,7 +98,7 @@ docker run -d -it --name code-server -p 8081:8080 \
   -e "DOCKER_USER=$USER" \
   custom-code:latest
 ```
-Replace `*<Your Project Directory>*` with the directory on your server/machine you want to expose to the code-server-container.
+Replace `*<Your Project Directory>*` with the directory on your server/machine you want to expose to the code-server-container. I usually have "${HOME}" set there, since I will be able to open every subdirectory with `Ctrl + K`.
 
 To be able to execute it, run 
 
