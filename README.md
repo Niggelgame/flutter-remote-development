@@ -1,6 +1,6 @@
 # Remote Flutter Web Development with Docker and Code-Server
 
-This is a small explanation on how to develop [Flutter](https://flutter.dev/) inside of a Docker-Container with [Code-Server](https://github.com/cdr/code-server). I created this, to be able to do Flutter development on my iPad.
+This is a small explanation on how to develop [Flutter](https://flutter.dev/) inside of a Docker-Container with [Code-Server](https://github.com/cdr/code-server). I created this, to be able to do Flutter development on my iPad (Just open the two tabs in Split-Screen).
 
 ## Setup Linux Server
 
