@@ -127,7 +127,7 @@ Then run `./build-image`. It may take some time.
 
 I wanted to have a reverse proxy from 2 different subdomains of mine to point to my code-server and my flutter-web result.
 
-Therefor I generated the SSL-certificates with [certbot]("https://certbot.eff.org/").
+Therefore I generated the SSL-certificates with [certbot]("https://certbot.eff.org/").
 
 Next, create two files in `/etc/nginx/sites-available/`: `code-server.conf` and `code-server-flutter.conf`.
 
