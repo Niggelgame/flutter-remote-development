@@ -1,0 +1,6 @@
+# /bin/bash
+
+sudo rm /etc/nginx/sites-enabled/code-server.conf
+sudo rm /etc/nginx/sites-enabled/code-server-flutter.conf
+
+sudo systemctl restart nginx
