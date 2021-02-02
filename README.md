@@ -2,6 +2,8 @@
 
 This is a small explanation on how to develop [Flutter](https://flutter.dev/) inside of a Docker-Container with [Code-Server](https://github.com/cdr/code-server). I created this, to be able to do Flutter development on my iPad (Just open the two tabs in Split-Screen).
 
+![Working Screenshot](screenshot.png?raw=true "Screenshot")
+
 ## Setup Linux Server
 
 You need to have [Docker](https://www.docker.com/) installed. (If not, take a look [here](https://docs.docker.com/get-docker/).)
