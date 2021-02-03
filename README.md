@@ -255,6 +255,6 @@ It will expose itself to the domain specified for the flutter-result.
 
 ## Questions
 
-If you have any questions, feel free to contact me at this [email]([Dr. Ken Lunde](mailto:nicolas@kedil.de?subject=[GitHub]%20Flutter%20Docker%20Server)) or by creating a issue.
+If you have any questions, feel free to contact me at this [email](mailto:nicolas@kedil.de?subject=[GitHub]%20Flutter%20Docker%20Server) or by creating a issue.
 
 You will find all the files mentioned in the repository.
