@@ -60,7 +60,7 @@ RUN sudo apt-get update
 RUN sudo apt-get install -y unzip
 # Usually in a normal Linux environment, you should not do that
 RUN sudo chmod 777 /opt
-RUN git clone https://github.com/flutter/flutter.git -b dev --depth 1 /opt/flutter
+RUN git clone https://github.com/flutter/flutter.git -b stable --depth 1 /opt/flutter
 ENV PATH="/opt/flutter/bin:${PATH}"
 RUN flutter doctor
 RUN flutter config --enable-web
@@ -68,7 +68,8 @@ RUN flutter config --enable-web
 # Install Code extensions
 RUN code-server --install-extension dart-code.flutter
 ```
-Set the flutter git-branch to something *higher than stable*, since Flutter Web is currently only available from branch dev and up. (`git clone [...] -b dev [...]`)
+
+Since web is available on `stable` now, you can use it too. To use more experimental features, consider setting the branch to something *higher than stable* ([Branch/Channel descriptions](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels))
 
 ### Setup your startup and stopping command
 
